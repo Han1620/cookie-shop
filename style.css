@@ -1,16 +1,107 @@
 body {
-  background-color:#89379a;
-   color: white;
-   font-family: monospace;
- }
- 
- table, th, td {
-   border: 1px solid;
- }
- }
- 
- td,
- th {
-   border: 1px solid #fff;
-   padding: 0.5rem;
- }
+  background-color: #33cccc;
+  color: white;
+  font-family: monospace;
+}
+
+table {
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td,
+th {
+  border: 1px solid #fff;
+  padding: 0.5rem;
+  background: #9bbae7;
+}
+
+.fishLogo {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+h1,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato";
+}
+
+h1 {
+  font-size: 2.8em;
+  padding: 10px 0;
+  font-weight: 800;
+}
+
+.header {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background: #ff8c69;
+  color: white;
+}
+
+.p {
+  font-size: 1.1em;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  color: #ff8c69;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  border: 2px solid #4CAF50e;
+  background: #33cccc;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: white;
+}
+
+.rainbow {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ddd;
+}
