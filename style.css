@@ -1,0 +1,16 @@
+body {
+  background-color:#89379a;
+   color: white;
+   font-family: monospace;
+ }
+ 
+ table, th, td {
+   border: 1px solid;
+ }
+ }
+ 
+ td,
+ th {
+   border: 1px solid #fff;
+   padding: 0.5rem;
+ }
