@@ -13,9 +13,32 @@
       <img class="fishLogo" src="salmon.png" />
       <h2>Average Sales:</h2>
     </section>
+
+    <!-- code for my table -->
     <main>
       <table id="myTable"></table>
     </main>
+
+    <!-- code for my form -->
+    <form id="new-store-form">
+      <fieldset>
+        <legend>Submit a New Cookie Store</legend>
+
+        <label for="name-input">Store Name:</label>
+        <input name="name" id="name-input" type="text" />
+
+        <label for="minCust-input">Minimum Customers:</label>
+        <input name="minCust" id="minCust-input" type="text" />
+
+        <label for="maxCust-input">Maximum Customers:</label>
+        <input name="maxCust" id="maxCust-input" type="text" />
+
+        <label for="avgCookies-input">Average Cookies Sold:</label>
+        <input name="avgCookies" id="avgCookies-input" type="text" />
+
+        <button id="submitButton" type="submit">SUBMIT!</button>
+      </fieldset>
+    </form>
 
     <script src="app.js"></script>
   </body>
